@@ -7,5 +7,5 @@ states:
 - id: sub
   type: action
   action:
-    function: subflow
+    function: sub
 

@@ -10,9 +10,3 @@ states:
     function: http-request
     input:
       true: false
-      # debug: true
-      # query:
-      # - hello: world
-      # - true: false
-      # url: https://www.direktiv.io
-  # transition: state1
