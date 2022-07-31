@@ -1,0 +1,11 @@
+url: ""
+functions:
+- type: subflow
+  id: sub
+  workflow: subflow
+states:
+- id: sub
+  type: action
+  action:
+    function: subflow
+
