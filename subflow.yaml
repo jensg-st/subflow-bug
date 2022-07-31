@@ -1,0 +1,18 @@
+url: ""
+functions:
+- type: knative-workflow
+  id: http-request
+  image: gcr.io/direktiv/apps/http-request:test
+states:
+- id: state0
+  type: action
+  action:
+    function: http-request
+    input:
+      true: false
+      # debug: true
+      # query:
+      # - hello: world
+      # - true: false
+      # url: https://www.direktiv.io
+  # transition: state1
